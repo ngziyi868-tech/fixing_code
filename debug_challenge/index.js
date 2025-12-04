@@ -4,9 +4,9 @@ let display = document.querySelector(".displaymycode");
 
 // This code should be working
 input.addEventListener("input", function () {
-//   const name = input.value;
-//   display.textContent = name;
-// });
+const name = input.value;
+display.textContent = name;
+ });
 
 // missing function?
 
